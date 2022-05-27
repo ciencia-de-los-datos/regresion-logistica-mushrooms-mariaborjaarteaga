@@ -65,7 +65,7 @@ def pregunta_01():
     """
     import copy
     # Lea el archivo `mushrooms.csv` y asignelo al DataFrame `df`
-    df =pd.read_csv(' mushrooms.csv')
+    df =pd.read_csv('mushrooms.csv')
 
     # Remueva la columna `veil-type` del DataFrame `df`.
     # Esta columna tiene un valor constante y no sirve para la detección de hongos.
